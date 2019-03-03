@@ -10,3 +10,7 @@ if __name__ == "__main__":
 @app.route("/About")
 def about():
     return render_template("About.html")
+
+@app.route("/test")
+def test():
+    return render_template("test.html")

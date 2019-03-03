@@ -18,8 +18,12 @@
   color: rgb(29, 173, 251);
 }
 
-.navbar li a{
-  color: color: rgb(29, 173, 251)!important;
+.navbar-nav li a{
+  color: rgb(29, 173, 251) !important;
+  }
+
+  .navbar-nav li a:hover{
+  color: rgb(33, 141, 12) !important;
   }
 
 .container .credit
@@ -75,4 +79,5 @@ body {
 
 li.dropdown:hover > .dropdown-menu {
   display: block;
+  color: rgb(29, 173, 251);
 }

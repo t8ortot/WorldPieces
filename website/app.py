@@ -115,9 +115,9 @@ def missouri():
 def montana():
     return render_template("Montana.html")
 
-@app.route("/Nabraska")
-def nabraska():
-    return render_template("Nabraska.html")
+@app.route("/Nebraska")
+def nebraska():
+    return render_template("Nebraska.html")
 
 @app.route("/Nevada")
 def nevada():
@@ -127,7 +127,7 @@ def nevada():
 def newhampshire():
     return render_template("NewHampshire.html")
 
-@app.route("NewJersey")
+@app.route("/NewJersey")
 def newjersey():
     return render_template("NewJersey.html")
 
@@ -143,7 +143,11 @@ def newyork():
 def northcarolina():
     return render_template("NorthCarolina.html")
 
-@app.route("Ohio")
+@app.route("/NorthDakota")
+def northdakota():
+    return render_template("NorthDakota.html")
+
+@app.route("/Ohio")
 def ohio():
     return render_template("Ohio.html")
 

@@ -11,9 +11,13 @@ if __name__ == "__main__":
 def about():
     return render_template("About.html")
 
-@app.route("/About")
-def about():
+@app.route("/About/James")
+def jimmy():
     return render_template("About/James.html")
+
+@app.route("/About/Patrick")
+def patrick():
+    return render_template("About/Patrick.html")
 
 @app.route("/Alabama")
 def alabama():

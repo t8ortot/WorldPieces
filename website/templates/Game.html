@@ -6,10 +6,10 @@
      {%block body%}
     <center>
         <img id="bridge"
-             onLoad="snapfit.defaultSimple=true; snapfit.defaultMixed=true; snapfit.defaultCallback=function() {alert('You solved the puzzle!'); document.getElementById('next').disabled = true;}; snapfit.defaultNokeys=true; snapfit.defaultLevel = {%block level%}{%endblock%}; snapfit.defaultPolygon=true; snapfit.defaultAreaimage=true; snapfit.add(this)"
+             onLoad="snapfit.defaultSimple=true; snapfit.defaultMixed=true; snapfit.defaultCallback=function() {alert('You solved the puzzle!'); document.getElementById('next').disabled = false;}; snapfit.defaultNokeys=true; snapfit.defaultLevel = {%block level%}{%endblock%}; snapfit.defaultPolygon=true; snapfit.defaultAreaimage=true; snapfit.add(this)"
              width="800" height="600" {%block image%}{%endblock%}>
     </center>
     <center>
-        <button onclick="window.location.href='{%block link%}{%endblock%}' id="next" type="button" onclick="snapfit.admix(document.getElementById('bridge'), true);" disabled>Next</button>
+        <button onclick="window.location.href='{%block link%}{%endblock%}'" id="next" type="button" onclick="snapfit.admix(document.getElementById('bridge'), true);" disabled>Next</button>
     </center>
 {%endblock%}

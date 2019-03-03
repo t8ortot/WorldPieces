@@ -1,0 +1,58 @@
+<!--Main About Page-->
+<!--Contains information and links to everyone's bios.-->
+<!--Front End: Roy Telles & Sam Zheng-->
+<!--Back End: Jenny Cai, Mike Lama, Patrick Coico-->
+
+{%extends "WPLayout.html" %}
+{%block banner%}
+<!-- TITLE for about us within the banner -->
+<header class="card-header" style="padding-left:30px">
+ <h2 class="card-title mt-2">About Us!</h2>
+  </header>
+  {%endblock%}
+  {%block body%}
+  <div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+        </div>
+        <div class="col-sm-8 text-left">
+            <center><p>We are the creators of World Piece!</p></center>
+
+            <!-- ABOUT US format -->
+            <!--
+              PROFILE IMAGE
+              NAME
+              ROLE
+          -->
+          <hr>
+          <center><img src="/static/About/James.jpg" class="img-responsive img-circle margin" style="overflow:hidden; display:inline" width="350"
+           height="350"></center>
+           <center><h3><a href="/About/James">James Clark</a></h3></center>
+           <center><p>Team Lead</p></center>
+           <hr>
+           <center><img src="/static/About/Angie.jpg" class="img-circle margin" style="overflow:hidden; display:inline" width="350"
+               height="350"></center>
+               <center><h3><a href="/About/Angie">Angie Cruz Martinez</a></h3></center>
+               <center><p>Front End Lead</p></center>
+               <hr>
+               <center><img src="/static/About/PatrickCoico.jpeg" class="img-responsive img-circle margin" style="display:inline" width="350"
+                   height="350"></center>
+                   <center><h3><a href="/About/Patrick">Patrick Coico</a></h3></center>
+                   <center><p>Back End Lead</p></center>
+                   <hr>
+                   <center><img src="/static/About/Zachary.jpg" class="img-responsive img-circle margin" style="display:inline" width="350"
+                       height="350"></center>
+                       <center><h3><a href="/About/Zachary">Zachary Martin</a></h3></center>
+                       <center><p>Javascript Dev</p></center>
+                       <hr>
+                       <center><img src="/static/About/Leonard.jpg" class="img-responsive img-circle margin" style="display:inline" width="350"
+                           height="350"></center>
+                           <center><h3><a href="/About/Leonard">Leonard Fernando</a></h3></center>
+                           <center><p>Javascript Dev</p></center>
+                           </div>
+                           <div class="col-sm-2 sidenav">
+
+                           </div>
+                       </div>
+                   </div>
+                   {%endblock%}

@@ -1,12 +1,12 @@
 /* CSS for logo banner */
 .bg-2 {
-  background-color: #f2f2f2; /* Banner color Grey */
+  background-color: #FFFFFF; /* Banner color Grey */
   color: #000000; /* Font color black */
 }
 
 .banner {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 
@@ -22,7 +22,7 @@
   color: rgb(29, 173, 251) !important;
   }
 
-  .navbar-nav li a:hover{
+.navbar-nav li a:hover{
   color: rgb(33, 141, 12) !important;
   }
 
@@ -45,6 +45,7 @@
   vertical-align: middle;
   text-size-adjust: none;
   min-width: auto;
+  font: 12px Montserrat, sans-serif;
 }
 
 #footer > .container
@@ -61,7 +62,7 @@ html {
 
 body {
   margin: 0 0 100px;
-  font: 18px Montserrat, sans-serif;
+  font: 16px Montserrat, sans-serif;
   line-height: 1.8;
   color: rgb(0, 0, 0);
 }

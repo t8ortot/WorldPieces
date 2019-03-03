@@ -5,6 +5,7 @@
     {%endblock%}
      {%block body%}
     <center>
+        <h2>{%block state%}{%endblock%}</h2>
         <img id="bridge"
              onLoad="snapfit.defaultSimple=true; snapfit.defaultMixed=true; snapfit.defaultCallback=function() {alert('You solved the puzzle! Click next to continue your quest for world piece!'); document.getElementById('next').disabled = false;}; snapfit.defaultNokeys=true; snapfit.defaultLevel = {%block level%}{%endblock%}; snapfit.defaultPolygon=true; snapfit.defaultAreaimage=true; snapfit.add(this)"
              width="800" height="600" {%block image%}{%endblock%}>
